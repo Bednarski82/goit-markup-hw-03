@@ -5,17 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hm2-main-page</title>
-    <link href="/goit-markup-hw-02/css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <nav>
-        <h2>
+     
+      <nav class="navigation">
+         <div class="container">
+        <h2 >
           <span class="span-web">Web</span
-          ><span class="span-studio">Studio</span>
+          ><span class="span-studio1">Studio</span>
         </h2>
 
-        <ul>
+        <ul class="nav-link-first" >
           <li>
             <a class="link-agency" href="#">Agencja</a>
           </li>
@@ -28,9 +34,9 @@
             <a class="link-navigation" href="#">Kontakt</a>
           </li>
         </ul>
-      </nav>
       
-        <ul>
+      
+        <ul  class="nav-link-second"  >
           <li>
             <a class="link-mail" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -40,38 +46,44 @@
             <a class="tel-number" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
+        </div>
+      </nav>
       
     </header>
 
     <main>
       <section>
-        <h1 class="header-one">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <div class="div-section-first">
+        <h1 class="header-one">EFEKTYWNE ROZWIĄZANIA<br> DLA WASZEGO BIZNESU</h1>
         <button class="button-order" type="button">Zamów usługe</button>
+      </div>
+    </div>
       </section>
       <section>
-        <ul>
-          <li>
+        <div class="container">
+        <ul class="list-lorem" >
+          <li class="li-lorem" >
             <h3 class="header-three">LOREM IPSUM</h3>
             <p class="article-one">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="li-lorem" >
             <h3 class="header-three">LOREM IPSUM</h3>
             <p class="article-one">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="li-lorem"class="li-lorem" >
             <h3 class="header-three">LOREM IPSUM</h3>
             <p class="article-one">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="li-lorem" >
             <h3 class="header-three">LOREM IPSUM</h3>
             <p class="article-one">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -81,8 +93,8 @@
        
         </ul>
         <h2 class="header-second">Czym się zajmujemy</h2>
-        <ul>
-          <li>
+        <ul class="list-img" >
+          <li  >
             <img
              
               src="./images/what_we_do/img(1)(1).jpg"
@@ -91,7 +103,7 @@
               alt="laptop"
             />
           </li>
-          <li>
+          <li >
             <img
               
               src="./images/what_we_do/img(2)(1).jpg"
@@ -111,11 +123,15 @@
             />
           </li>
         </ul>
+        </div>
       </section>
       <section>
+        <div class="div-section-third">
+        <div class="container">
         <h2 class="header-second">Nasz zespół</h2>
-        <ul>
+        <ul class="list-img" >
           <li>
+            <div class="div-our-team">
             <img
               class="images-team"
               src="./images/our_team/img(4)(1).jpg"
@@ -124,10 +140,13 @@
               "
               alt="Product Designer"
             />
+           
             <h3 class="h3">John Doe</h3>
              <p class="article-two">Product Designer</p>
+            </div>
           </li>
           <li>
+            <div class="div-our-team">
             <img
               class="images-team"
               src="./images/our_team/img(8)(1).jpg"
@@ -138,8 +157,10 @@
             />
             <h3 class="h3">John Doe</h3>
             <p class="article-two">Frontend Developer</p>
+            </div>
           </li>
           <li>
+            <div class="div-our-team">
             <img
               class="images-team"
               src="./images/our_team/img(9)(1).jpg"
@@ -152,6 +173,7 @@
             <p class="article-two">Marketing</p>
           </li>
           <li>
+            <div class="div-our-team">
             <img
               class="images-team"
               src="./images/our_team/img(10)(1).jpg"
@@ -162,18 +184,24 @@
             />
             <h3 class="h3">John Doe</h3>
              <p class="article-two">UI Designer</p>
+          </div>
           </li>
         </ul>
+        </div>
+        </div>
        
         
             
           
       </section>
+    
     </main>
 
-    <footer>
+    <footer >
+      <div class="div-footer">
+        <div class="container">
       <h2>
-        <span class="span-web">web</span><span class="span-studio">studio</span>
+        <span class="span-web">Web</span><span class="span-studio2">studio</span>
       </h2>
       <address>
         <ul>
@@ -192,6 +220,8 @@
           </li>
         </ul>
       </address>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

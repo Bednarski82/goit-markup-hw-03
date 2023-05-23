@@ -1,6 +1,10 @@
 body {
-    font-family: roboto sans-serif;
-    color: var(--h2-font-color);}
+    font-family: 'Roboto', sans-serif; 
+    color:#212121;
+    width: 1600px;
+    letter-spacing: 0.03em;
+margin-left: auto;
+margin-right: auto;}
 
         :root {
             --h2-font-color: #212121;
@@ -15,66 +19,91 @@ li {
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
+   margin-left: 37px;
+   
 
 }
+.span-studio1{
+font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;}
+       
 
-.span-studio {
-    color: #212121;
+.span-studio2 {
+    color:rgba(255, 255, 255, 1);
 
     font-family: Raleway;
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;}
-        .link-navigation {
+        
+         .link-navigation {
             font-size: 14px;
             text-decoration: none;
             color: var(--h2-color);
+            padding-left:46px;}
     
-        }
     
         .link-agency {
             color: var(--h2-font-color);
             font-size: 14px;
             text-decoration: none;
+            padding-left: 93px;
         }
+        .link-agency:hover {color: rgba(33, 150, 243, 1);
+                    cursor: pointer;}
     
         .link-mail {
             color: #757575;
             font-size: 14px;
             font-weight: 16px;
             text-decoration: none;
-        }
+            
+}
+        
         .link-mail:hover {color: rgba(33, 150, 243, 1);
                     cursor: pointer;}
+                .tel-number {
+                                    color: #757575;
+                                        font-size: 14px;
+                                        font-weight: 16px;
+                                        text-decoration: none;
+                                        padding-left: 50px;
+                                    }
                 
                 
-                
-                
-                .link-agency:hover {color: rgba(33, 150, 243, 1);
-                    cursor: pointer;
-
-                }
                                 .link-adres {
                                     color: #757575;
                                     font-size: 14px;
                                     font-weight: 16px;
                                     text-decoration: none;
                                 }
-                                .tel-number {
-                                    color: #757575;
-                                        font-size: 14px;
-                                        font-weight: 16px;
-                                        text-decoration: none;
-                                    }
+                                
+                                    
                                 .link-adres:hover {color: rgba(33, 150, 243, 1);}
                                 .header-one {
                                     font-style: black;
                                     font-size: 44px;
+                                    color: rgba(255, 255, 255, 1);
+                                    text-align: center;
+                                    padding-top: 200px;
+                                    
 
                                 }
                                 .button-order {
                                     background-color:rgba(33, 150, 243, 1);
                                     color: rgba(255, 255, 255, 1);
+                                    width: 200px;
+                                    height: 50px;
+                                    border: none;
+                                    border-radius: 4px;
+                                    margin-left: 700px;
+                                    margin-right: 700px;
+                                    margin-top: 40px;
+    
+    
+    
                                 }
                                 .header-three {
                                     font-style: bold;
@@ -89,22 +118,32 @@ li {
                                     font-style: bold;
                                     font-size: 36px;
                                     color: var(--h2-color);
+                                    padding-top: 94px;
+                                    text-align: center;
                                 }
                                 .h3 {font-size: 16px;
                                     color: rgba(33, 33, 33, 1);
                                     font-style: bold;
                                     line-height: 1.6em;
+                                    text-align: center;
+                                    
+                                    ;
                                 
                                 }
                                 .article-two {
                                     font-size: 16px;
                                     color: rgba(117, 117, 117, 1);
                                     line-height: 1.6em;
+                                    text-align: center;
+                                   
+                                    
+                                    
                                 }
                            .link-map {
                                text-decoration: none;
                                font-size: 14px;
                                line-height: 1.6em;
+                              color:  rgba(255, 255, 255, 1)
                            }
 
                    .link-adress2 {
@@ -112,6 +151,7 @@ li {
                        font-size: 14px;
                        text-decoration: none;
                        line-height: 1.6em;
+                       color: rgba(255, 255, 255, 0.6);
         
                    }
                    .link-portfolio {
@@ -144,3 +184,69 @@ li {
 line-height: 4em;
 }
     
+.container{
+    width: 1200px;
+    margin:0 auto;}
+    .navigation {
+        width: 1600px;
+        height: 80px;
+        display: flex;
+         align-items: center;
+   
+    
+    }
+    .nav-link-first {
+        display: flex; align-items: center;
+    justify-content: flex-start;
+    
+    }
+    .nav-link-second {
+        display: flex;
+    justify-content: flex-end;
+    
+}
+.section{
+    padding: 94px 0 94px 0;}
+    
+    .div-section-first{
+        background-color: rgba(47, 48, 58, 1);
+        width: 1600px;
+        height: 600px;
+       
+    }
+.list-lorem {
+    
+    display: flex;
+    
+    justify-content: space-around;
+}
+.li-lorem{
+    width: 270px;
+    height: 75px;
+}
+.list-img {display: flex;
+    margin-top: 50px;
+gap: 30px;}
+.div-section-third {width: 1600px;
+height: 648px;
+background-color: rgba(245, 244, 250, 1);}
+
+.div-our-team {
+    width: 270px;
+    height: 368px;
+    background-color: rgba(255, 255, 255, 1);
+    border-bottom-left-radius:4px ;
+    border-bottom-right-radius: 4px;box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+
+box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+}
+.div-footer {
+    width: 1600px;
+    height: 252px;
+    background-color: var(--footer-background-color);
+    
+    
+}
