@@ -17,6 +17,11 @@ li {
     list-style-type: none;
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .span-web {
     color: #2196F3;
     font-family: Raleway;
@@ -111,9 +116,18 @@ li {
                                     font-size: 14px;
                                     line-height: 1.4em;
                                 }
+
+                                .div-article-one {
+                                    width: 270px;
+                                    height: 75px;
+                                    
+                                }
                                 .article-one {
                                     font-size: 14px;
                                     color: rgba(117, 117, 117, 1);
+                                    font-family: "roboto";
+                                    line-height: 24px;
+                                    
                                 }
                                 .header-second {
                                     font-style: bold;
@@ -161,6 +175,14 @@ li {
                     color: rgba(33, 150, 243, 1);
                     text-decoration: none;
                    }
+
+                   .div-button {
+                    display: flex;
+                    justify-content: center;
+
+                   
+            }
+
                    .button-navigation {
                     background-color: rgba(245, 244, 250, 1);
                     color: black;
@@ -174,29 +196,36 @@ li {
                     
                    }
                    
-                   h2 {
-                    font-style: bold;
-    font-size: 18px;
-    color: rgba(33, 33, 33, 1);
+h2 {
+ font-style: bold;
+font-size: 18px;
+color: rgba(33, 33, 33, 1);
                    }
-                   .article-portfolio {font-style: regular;
-    font-size: 16px;
-    color: rgba(117, 117, 117, 1);
+
+                   
+.article-portfolio {font-style: regular;
+font-size: 16px;
+color: rgba(117, 117, 117, 1);
 line-height: 4em;
 }
     
-.container {
+.container1 {
     width: 1200px;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
 }
 
+.container {width: 1200px;
+margin-left:auto;
+margin-right: auto;}
+
 .navigation {
     width: 1600px;
     height: 80px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .div-nav {
@@ -213,8 +242,7 @@ line-height: 4em;
         justify-content: flex-end;
     
 }
-.section{
-    padding: 94px 0 94px 0;}
+
     
     .div-section-first{
         background-color: rgba(47, 48, 58, 1);
@@ -228,16 +256,19 @@ line-height: 4em;
     
     justify-content: space-around;
 }
-.li-lorem{
-    width: 270px;
-    height: 75px;
-}
+
+
 .list-img {display: flex;
-    margin-top: 50px;
-gap: 30px;}
-.div-section-third {width: 1600px;
+margin-top: 50px;
+gap: 30px;
+justify-content: center;
+}
+
+.div-section-third 
+{width: 1600px;
 height: 648px;
-background-color: rgba(245, 244, 250, 1);}
+background-color: rgba(245, 244, 250, 1);
+}
 
 .div-our-team {
     width: 270px;
@@ -258,3 +289,10 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     
     
 }
+
+.div-main-portfolio {
+    display: flex;
+    gap: 30px;
+}
+
+

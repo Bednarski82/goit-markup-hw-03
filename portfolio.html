@@ -5,33 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hm2-portfolio</title>
-    <link href="/goit-markup-hw-02/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 </head>
 <body>
-    <header>
+    
         <header>
-        <nav>
-            <h2><span class="span-web">Web</span><span class="span-studio">studio</span></h2>
+        <nav class="navigation" >
+            <div class="container1">
+                <div class="div-nav">
+            <h2 class="nav-link-first">
+                <span class="span-web">Web</span>
+                <span class="span-studio1">studio</span>
+            </h2>
         
-            <ul>
+            <ul class="nav-link-first" >
                 <li>
                     <a class="link-agency" href="#">Agencja</a>
                 </li>
                 <li>
-                    <a class="link-portfolio" href="/goit-markup-hw-01/index.html">Portfolio</a>
+                    <a class="link-navigation" href="/goit-markup-hw-01/index.html">Portfolio</a>
                 </li>
                 <li>
                     <a class="link-navigation" href="#">Kontakt</a>
                 </li>
             </ul>
-        </nav>
+                </div>
+    
         
-            <ul>
-                <li>
+            <ul class="nav-link-second" >
+                <li  >
                     <a class="link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
@@ -39,12 +46,16 @@
         
                 </li>
             </ul>
-        
-
+            </div>
+        </nav>
+        </header>
     
-    <main>
+    <main class="section" >
+        <div class="container">
         <li>
+            <div class="div-button">
             <ul>
+                
                 <button class="button-navigation" type="button">Wszystkie</button>
             </ul>
             <ul>
@@ -58,9 +69,13 @@
             </ul>
             <ul>
                 <button class="button-navigation" type="button">Marketing</button>
+            
             </ul>
+            </div>
         </li>
+        <div class="div-main-portfolio">
         <li>
+            
             <ul>
                 <img class="images-portfolio" src="/goit-markup-hw-02/images/portfolio/img(11)(1).jpg"
                 alt="laptop"
@@ -120,9 +135,10 @@
             <ul>
                 <img class="images-portfolio" src="/goit-markup-hw-02/images/portfolio/img(19)(1).jpg" alt="letters" width="370px"
                 height="294px" >
+               
                  <h2 class="h2" >Projekt LAB</h2>
                  <p class="article-portfolio" >Marketing</p>
-            
+                
             </ul>
             <ul>
                 <img class="images-portfolio" src="/goit-markup-hw-02/images/portfolio/img(20)(1).jpg" alt="computer" width="370px"
@@ -132,13 +148,18 @@
             </ul>
             
         </li>
+        </div>
        
         
-                
+        </div>
          </main>
     
-        <footer>
-            <h2><span class="span-web">Web</span><span class="span-studio">studio</span></h2>
+        <footer >
+            <div class="div-footer">
+                <div class="container">
+                <span class="span-web">Web</span>
+                <span class="span-studio2">studio</span>
+            </h2>
             <address>
                 <ul>
                     <li>
@@ -155,8 +176,8 @@
         
         
             </address>
-        
-        
+                </div>
+        </div>
 
     </footer>
 </body>
