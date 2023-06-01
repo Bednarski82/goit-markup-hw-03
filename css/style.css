@@ -327,6 +327,8 @@ margin-right: auto;}
     height: 80px;
     display: flex;
     align-items: center;
+    font-family: "roboto";
+    font-weight: 500;
 }
 .navigation-portfolio {
     width: 1600px;
@@ -343,7 +345,8 @@ margin-right: auto;}
     justify-content: flex-start;
 }
     .nav-link-first {
-        display: flex; align-items: center;
+        display: flex; 
+        align-items: center;
     
     
     }
