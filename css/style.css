@@ -43,11 +43,18 @@ li {
     font-weight: 700;
     line-height: 31px;
 }
-        
-.link-navigation {
+
+.link-navigation1 {
             font-size: 14px;
             text-decoration: none;
-            color: var(--h2-color);
+            color:var(--h2-font-color);
+            padding-left:46px;}
+
+        
+.link-navigation2 {
+            font-size: 14px;
+            text-decoration: none;
+            color:  rgba(33, 150, 243, 1);
             padding-left:46px;}
     
     
@@ -121,13 +128,20 @@ li {
                                     width: 270px;
                                     height: 75px;
                                     
+                                    
+                                    
                                 }
                                 .article-one {
                                     font-size: 14px;
+                                    font-style: regular;
                                     color: rgba(117, 117, 117, 1);
                                     font-family: "roboto";
+                                    font-style: normal;
                                     line-height: 24px;
-                                    
+                                    text-align: left;
+                                    line-height: 146%;
+                                    Letter spacing: 3%;
+                                
                                 }
                                 .header-second {
                                     font-style: bold;
@@ -142,7 +156,7 @@ li {
                                     line-height: 1.6em;
                                     text-align: center;
                                     
-                                    ;
+                                    
                                 
                                 }
                                 .article-two {
@@ -150,7 +164,8 @@ li {
                                     color: rgba(117, 117, 117, 1);
                                     line-height: 1.6em;
                                     text-align: center;
-                                   
+                                   padding-bottom: 30px;
+                                   line-height: 100%;
                                     
                                     
                                 }
@@ -158,7 +173,9 @@ li {
                                text-decoration: none;
                                font-size: 14px;
                                line-height: 1.6em;
-                              color:  rgba(255, 255, 255, 1)
+                              color:  rgba(255, 255, 255, 1);
+                             padding-top: 20px;
+                              
                            }
 
                    .link-adress2 {
@@ -167,7 +184,12 @@ li {
                        text-decoration: none;
                        line-height: 1.6em;
                        color: rgba(255, 255, 255, 0.6);
+                      
         
+                   }
+
+                   .list-footer-adress {
+                    padding-top: 9px;
                    }
                    .link-portfolio {
                     font-style: medium;
@@ -178,17 +200,92 @@ li {
 
                    .div-button {
                     display: flex;
+                    
                     justify-content: center;
+                    gap: 8px;
+                    margin-bottom: 56px;
 
                    
             }
 
-                   .button-navigation {
+                   .button-navigation1 {
                     background-color: rgba(245, 244, 250, 1);
-                    color: black;
+                    color:rgba(33, 33, 33, 1);
                     border-style: none;
+                    width: 121px;
+                    height: 38px;
+                    font-size: 16px;
+                    border-radius: 4px;
+                    background-color: ;
+                    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+                    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+                    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+ 
+
                    }
-                   .button-navigation:hover {
+
+                   .button-navigation2 {
+                    background-color: rgba(245, 244, 250, 1);
+                    color: rgba(33, 33, 33, 1);
+;
+                    border-style: none;
+                    width: 93px;
+                    height: 38px;
+                    font-size: 16px;
+                    border-radius: 4px;
+                    background-color: rgba(245, 244, 250, 1);
+;
+                    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+                    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+                    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
+
+                   }
+
+                   .button-navigation3 {
+                    background-color: rgba(245, 244, 250, 1);
+                    color: rgba(33, 33, 33, 1);
+;
+                    border-style: none;
+                    width: 114px;
+                    height: 38px;
+                    font-size: 16px;
+                    border-radius: 4px;
+                    background-color: rgba(245, 244, 250, 1);
+;
+                    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+                    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+                    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+                   
+                
+                }
+
+                .button-navigation4 {
+                    background-color: rgba(245, 244, 250, 1);
+                    color: rgba(33, 33, 33, 1);
+;
+                    border-style: none;
+                    width: 91px;
+                    height: 38px;
+                    font-size: 16px;
+                    border-radius: 4px;
+                    background-color: rgba(245, 244, 250, 1);
+;
+                    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+                    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+                    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
+                }
+
+
+
+
+                   
+ 
+
+                   .button-navigation1:hover, .button-navigation2:hover,
+                   .button-navigation3:hover, .button-navigation4:hover 
+                   {
                     background-color: #2196F3;
                     color: white;
                     cursor: pointer;
@@ -200,13 +297,18 @@ h2 {
  font-style: bold;
 font-size: 18px;
 color: rgba(33, 33, 33, 1);
-                   }
 
+                   }
+                   
+
+    ul {padding-left: 0;}
                    
 .article-portfolio {font-style: regular;
 font-size: 16px;
 color: rgba(117, 117, 117, 1);
 line-height: 4em;
+padding-left: 24px;
+line-height: 160%;
 }
     
 .container1 {
@@ -225,7 +327,15 @@ margin-right: auto;}
     height: 80px;
     display: flex;
     align-items: center;
+}
+.navigation-portfolio {
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
     border-bottom: 1px solid rgba(236, 236, 236, 1);
+    font-family: "roboto";
+    font-weight: 500;
 }
 
 .div-nav {
@@ -251,9 +361,7 @@ margin-right: auto;}
        
     }
 .list-lorem {
-    
     display: flex;
-    
     justify-content: space-around;
 }
 
@@ -286,8 +394,6 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     width: 1600px;
     height: 252px;
     background-color: var(--footer-background-color);
-    
-    
 }
 
 .div-main-portfolio {
@@ -295,4 +401,16 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     gap: 30px;
 }
 
+.div-portfolio-card {
+    width: 370px;
+    height: 404px;
+    border: 1px solid rgba(238, 238, 238, 1)
+}
 
+.h2-portfolio {
+    padding-left: 24px;
+}
+
+.h2-footer {
+    padding-top: 60px;
+}
